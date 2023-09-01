@@ -3,7 +3,6 @@ from langchain.llms import OpenAI
 from langchain.agents import create_csv_agent, create_pandas_dataframe_agent
 import os
 import dotenv
-from mimetypes import guess_type
 
 
 dotenv.load_dotenv('key.env', override=True)
